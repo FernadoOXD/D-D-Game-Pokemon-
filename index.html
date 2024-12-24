@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Juego DnD Pokemon</title>
+</head>
+
+<body>
+    <main class="main-container">
+        <div>
+            <div id="lives" class="score-life-change">Vidas: 3</div> 
+            <p>Puntuación: <span id="current-score" class="score-life-change">0</span></p>
+            <p>Puntuación más alta: <span id="high-score" class="score-life-change">0</span></p>
+        </div>        
+        <h1 id="current-round" class="round-change">Ronda 1</h1>
+        <div class="draggable-elements"></div>
+        <h2>Arrastra y suelta</h2>
+        <div class="droppable-elements"></div>
+        <p id="error-message" class="error-message"></p>
+        <p id="win-message" class="win"></p>
+        <button onclick="resetGame()">Reiniciar Juego</button>
+    </main>
+
+
+</body>
+    <script src="main.js"></script>
+</html>
